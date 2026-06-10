@@ -40,7 +40,7 @@ O servidor calcula o gradiente ∇π, resolve ∇π = 0, classifica o ponto crí
 
 ## Requisitos
 
-- **Python 3.10+** (testado em 3.12). Só isso. Não precisa de Node.
+- **Python 3.10+** (testado em 3.12).
 
 ## Como rodar (terminal)
 
