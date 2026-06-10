@@ -110,9 +110,8 @@ Declaramos o uso de ferramentas de IA generativa como apoio para: estruturar e r
 
 | Nome | Matrícula |
 |---|---|
-| [Integrante 1] | [matrícula] |
-| [Integrante 2] | [matrícula] |
-| [Integrante 3] | [matrícula] |
+| Ana Luiza Souto | 
+| Caiky Morais | 
 
 ## Licença
 
