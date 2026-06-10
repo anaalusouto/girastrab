@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quanto produzir e quanto investir em marketing</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <p class="eyebrow">Cálculo de várias variáveis · ponto ótimo</p>
+      <h1>Quanto produzir e quanto investir em marketing para o lucro máximo</h1>
+      <p>
+        A ferramenta recebe os parâmetros do seu negócio, monta a função de lucro em duas
+        variáveis, resolve o gradiente igual a zero e confirma o máximo pela Hessiana. Você lê a
+        recomendação pronta, sem precisar fazer a conta.
+      </p>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="card" aria-label="Parâmetros">
+      <h2>Parâmetros do negócio</h2>
+      <div id="fields"></div>
+      <button class="btn" id="run-btn">Calcular ponto ótimo</button>
+      <button class="btn-reset" id="reset-btn">Restaurar exemplo</button>
+    </section>
+
+    <section class="results" id="results" aria-live="polite">
+      <div class="card">
+        <h2>Recomendação</h2>
+        <p class="muted">
+          Preencha os parâmetros e clique em <strong>Calcular ponto ótimo</strong> para ver a
+          produção, o investimento em marketing e o preço que maximizam o lucro.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    Modelo: redução didática de Sadjadi et al. (2015) · cálculo simbólico em Python (SymPy) ·
+    interface e API em Flask (servidor único).
+  </footer>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
